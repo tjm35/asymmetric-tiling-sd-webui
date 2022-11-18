@@ -1,10 +1,12 @@
 # Asymmetric Tiling for stable-diffusion-webui
 
-A custom script for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/) to configure seamless image tiling independently for the X and Y axes.
+An always visible script extension for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui/) to configure seamless image tiling independently for the X and Y axes.
 
-To use, add [asymmetric_tiling.py](asymmetric_tiling.py) to your `scripts` directory in stable-diffusion-webui, restart your server, select `Asymmetric tiling` in the script dropdown, and check `Tile X` or `Tile Y` as desired. While this script is active, the `Tiling` checkbox in the main UI will be ignored.
+To use, install this repository from the "Extensions" tab in stable-diffusion-webui, restart your server, open the `Asymmetric tiling` foldout on txt2img or img2img, and make it active, and check `Tile X` or `Tile Y` as desired. While this script is active, the `Tiling` checkbox in the main UI will be ignored.
 
 Like existing tiling options this won't guarantee seamless tiling 100% of the time, but it should manage it for most prompts. You can check that images tile seamlessly using online tools like [Seamless Texture Check](https://www.pycheung.com/checker/).
+
+For the old, non-extension version of this script, use the "classic_script" branch.
 
 ## X axis tiling examples
 ![00817-3274117678-midnight cityscape, stunning environment, wide-angle, massive scale, landscape, panoramic, lush vegetation, idyllic](https://user-images.githubusercontent.com/19196175/195132862-8c050327-92f3-44a4-9c02-0f11cce0b609.png)
